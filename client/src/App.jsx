@@ -38,11 +38,11 @@ function App() {
         <main className="container mx-auto px-4 py-8">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/auth" element={<Auth setUser={setUser} />} />
-            <Route path="/profile" element={<Profile user={user} />} />
+            <Route path="/find-partner" element={<FindPartner user={user} />} />
             <Route path="/projects" element={<Projects user={user} />} />
             <Route path="/projects/:id" element={<ProjectDetail user={user} />} />
-            <Route path="/find-partner" element={<FindPartner user={user} />} />
+            <Route path="/profile/:id" element={<Profile user={user} />} />
+            <Route path="/auth" element={<Auth setUser={setUser} />} />
             <Route path="/messages" element={<Messages user={user} />} />
           </Routes>
         </main>
