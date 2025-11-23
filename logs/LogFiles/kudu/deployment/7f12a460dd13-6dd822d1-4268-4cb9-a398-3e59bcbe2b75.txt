@@ -1,0 +1,26 @@
+2025-11-23T06:42:11  Fetching changes.
+2025-11-23T06:42:11    Starting  LocalZipHandler
+2025-11-23T06:42:11    Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/ea7bb25e-4c8d-4286-8f5f-06652f4012a8.zip (1.21 MB) to /tmp/zipdeploy/extracted
+2025-11-23T06:42:17  Updating submodules.
+2025-11-23T06:42:18  Preparing deployment for commit id 'b1e76f5b-f'.
+2025-11-23T06:42:18  PreDeployment: context.CleanOutputPath False
+2025-11-23T06:42:19  PreDeployment: context.OutputPath /home/site/wwwroot
+2025-11-23T06:42:19  Running custom deployment command...
+2025-11-23T06:42:19  Not setting execute permissions for npm install
+2025-11-23T06:42:20  Running deployment command...
+2025-11-23T06:42:20    Command: npm install
+2025-11-23T06:42:38    
+2025-11-23T06:42:38    > project-connect-server@1.0.0 postinstall
+2025-11-23T06:42:38    > echo 'Backend dependencies installed'
+2025-11-23T06:42:38    
+2025-11-23T06:42:38    Backend dependencies installed
+2025-11-23T06:42:38    
+2025-11-23T06:42:38    added 101 packages, and audited 102 packages in 13s
+2025-11-23T06:42:38    
+2025-11-23T06:42:38    15 packages are looking for funding
+2025-11-23T06:42:38      run `npm fund` for details
+2025-11-23T06:42:38    
+2025-11-23T06:42:38    found 0 vulnerabilities
+2025-11-23T06:42:39  Running post deployment command(s)...
+2025-11-23T06:42:39  Triggering container recycle for OneDeploy by adding/updating restartTrigger.txt to the site root path
+2025-11-23T06:42:39  Deployment successful. deployer = OneDeploy deploymentPath = OneDeploy

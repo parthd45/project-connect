@@ -1,0 +1,176 @@
+2025-11-23T06:45:47.183752273Z    _____                               
+2025-11-23T06:45:47.184825183Z   /  _  \ __________ _________   ____  
+2025-11-23T06:45:47.184829504Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2025-11-23T06:45:47.184831782Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2025-11-23T06:45:47.184833850Z \____|__  /_____ \____/ |__|    \___  >
+2025-11-23T06:45:47.184836184Z         \/      \/                  \/ 
+2025-11-23T06:45:47.184838215Z A P P   S E R V I C E   O N   L I N U X
+2025-11-23T06:45:47.184852092Z 
+2025-11-23T06:45:47.184854349Z Documentation    : http://aka.ms/webapp-linux
+2025-11-23T06:45:47.184856293Z NodeJS quickstart: https://aka.ms/node-qs
+2025-11-23T06:45:47.184858131Z NodeJS Version   : v20.19.5
+2025-11-23T06:45:47.184859995Z Instance Name    : lw1sdlwk0000NJ
+2025-11-23T06:45:47.184861910Z Instance Id      : 771c4855b52f18cdab2a5fc344c5bec327e980889332ccf5151f348f68cb25c7
+2025-11-23T06:45:47.184863888Z 
+2025-11-23T06:45:47.184865663Z Note: Any data outside '/home' is not persisted
+2025-11-23T06:45:51.220069618Z Starting OpenBSD Secure Shell server: sshd.
+2025-11-23T06:45:51.241636860Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-11-23T06:45:51.300636892Z Updating certificates in /etc/ssl/certs...
+2025-11-23T06:46:19.119309356Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2025-11-23T06:46:19.119355554Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2025-11-23T06:46:19.452096766Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2025-11-23T06:46:19.513947970Z 4 added, 0 removed; done.
+2025-11-23T06:46:19.522550219Z Running hooks in /etc/ca-certificates/update.d...
+2025-11-23T06:46:19.533020879Z done.
+2025-11-23T06:46:19.553752426Z CA certificates copied and updated successfully.
+2025-11-23T06:46:19.692895483Z Starting periodic command scheduler: cron.
+2025-11-23T06:46:19.958649474Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2025-11-23T06:46:19.976641726Z Could not find operation ID in manifest. Generating an operation id...
+2025-11-23T06:46:19.977340953Z Build Operation ID: b68a2a2f-91d4-41db-9b1c-37a0e5a72f06
+2025-11-23T06:46:20.847317884Z Environment Variables for Application Insight's IPA Codeless Configuration exists..
+2025-11-23T06:46:20.973258118Z Writing output script to '/opt/startup/startup.sh'
+2025-11-23T06:46:21.126076278Z Running #!/bin/sh
+2025-11-23T06:46:21.126099405Z 
+2025-11-23T06:46:21.126103077Z # Enter the source directory to make sure the script runs where the user expects
+2025-11-23T06:46:21.126105939Z cd "/home/site/wwwroot"
+2025-11-23T06:46:21.126109063Z 
+2025-11-23T06:46:21.126127512Z export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+2025-11-23T06:46:21.126130038Z if [ -z "$PORT" ]; then
+2025-11-23T06:46:21.126132085Z 		export PORT=8080
+2025-11-23T06:46:21.126134216Z fi
+2025-11-23T06:46:21.126136058Z 
+2025-11-23T06:46:21.126501042Z PATH="$PATH:/home/site/wwwroot" cd server && npm install && npm start
+2025-11-23T06:46:21.184258059Z /opt/startup/startup.sh: 11: cd: can't cd to server
+
+2025-11-23T06:46:39.201874357Z    _____                               
+2025-11-23T06:46:39.201911934Z   /  _  \ __________ _________   ____  
+2025-11-23T06:46:39.201915241Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2025-11-23T06:46:39.201917558Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2025-11-23T06:46:39.201919551Z \____|__  /_____ \____/ |__|    \___  >
+2025-11-23T06:46:39.201922228Z         \/      \/                  \/ 
+2025-11-23T06:46:39.201924208Z A P P   S E R V I C E   O N   L I N U X
+2025-11-23T06:46:39.201926209Z 
+2025-11-23T06:46:39.201927964Z Documentation    : http://aka.ms/webapp-linux
+2025-11-23T06:46:39.201929880Z NodeJS quickstart: https://aka.ms/node-qs
+2025-11-23T06:46:39.201931802Z NodeJS Version   : v20.19.5
+2025-11-23T06:46:39.201933719Z Instance Name    : lw1sdlwk0000NJ
+2025-11-23T06:46:39.201935608Z Instance Id      : 771c4855b52f18cdab2a5fc344c5bec327e980889332ccf5151f348f68cb25c7
+2025-11-23T06:46:39.201937711Z 
+2025-11-23T06:46:39.201939478Z Note: Any data outside '/home' is not persisted
+2025-11-23T06:46:46.776135472Z Starting OpenBSD Secure Shell server: sshd.
+2025-11-23T06:46:46.796559232Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-11-23T06:46:46.844997611Z Updating certificates in /etc/ssl/certs...
+2025-11-23T06:47:05.253921163Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2025-11-23T06:47:05.261656803Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2025-11-23T06:47:05.541645020Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2025-11-23T06:47:05.581516914Z 4 added, 0 removed; done.
+2025-11-23T06:47:05.582817794Z Running hooks in /etc/ca-certificates/update.d...
+2025-11-23T06:47:05.600426585Z done.
+2025-11-23T06:47:05.610348750Z CA certificates copied and updated successfully.
+2025-11-23T06:47:05.829976610Z Starting periodic command scheduler: cron.
+2025-11-23T06:47:05.929335359Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2025-11-23T06:47:05.929993807Z Could not find operation ID in manifest. Generating an operation id...
+2025-11-23T06:47:05.930410284Z Build Operation ID: 68054377-a30c-452d-ae15-5bc68364f9db
+2025-11-23T06:47:07.130696443Z Environment Variables for Application Insight's IPA Codeless Configuration exists..
+2025-11-23T06:47:07.281776671Z Writing output script to '/opt/startup/startup.sh'
+2025-11-23T06:47:07.444006937Z Running #!/bin/sh
+2025-11-23T06:47:07.444057829Z 
+2025-11-23T06:47:07.444063104Z # Enter the source directory to make sure the script runs where the user expects
+2025-11-23T06:47:07.444066020Z cd "/home/site/wwwroot"
+2025-11-23T06:47:07.444068722Z 
+2025-11-23T06:47:07.444081212Z export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+2025-11-23T06:47:07.444083621Z if [ -z "$PORT" ]; then
+2025-11-23T06:47:07.444085668Z 		export PORT=8080
+2025-11-23T06:47:07.444087944Z fi
+2025-11-23T06:47:07.444089733Z 
+2025-11-23T06:47:07.444091619Z PATH="$PATH:/home/site/wwwroot" cd server && npm install && npm start
+2025-11-23T06:47:07.454535523Z /opt/startup/startup.sh: 11: cd: can't cd to server
+
+2025-11-23T06:47:23.886820336Z    _____                               
+2025-11-23T06:47:23.886859888Z   /  _  \ __________ _________   ____  
+2025-11-23T06:47:23.886863194Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2025-11-23T06:47:23.886865705Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2025-11-23T06:47:23.886867787Z \____|__  /_____ \____/ |__|    \___  >
+2025-11-23T06:47:23.886870110Z         \/      \/                  \/ 
+2025-11-23T06:47:23.886872185Z A P P   S E R V I C E   O N   L I N U X
+2025-11-23T06:47:23.886874130Z 
+2025-11-23T06:47:23.886875936Z Documentation    : http://aka.ms/webapp-linux
+2025-11-23T06:47:23.886877988Z NodeJS quickstart: https://aka.ms/node-qs
+2025-11-23T06:47:23.886879896Z NodeJS Version   : v20.19.5
+2025-11-23T06:47:23.886881812Z Instance Name    : lw1sdlwk0000NJ
+2025-11-23T06:47:23.886883723Z Instance Id      : 771c4855b52f18cdab2a5fc344c5bec327e980889332ccf5151f348f68cb25c7
+2025-11-23T06:47:23.886885770Z 
+2025-11-23T06:47:23.886887549Z Note: Any data outside '/home' is not persisted
+2025-11-23T06:47:33.196214053Z Starting OpenBSD Secure Shell server: sshd.
+2025-11-23T06:47:33.312839076Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-11-23T06:47:33.312858773Z Updating certificates in /etc/ssl/certs...
+2025-11-23T06:47:51.783525774Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2025-11-23T06:47:51.791283697Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2025-11-23T06:47:52.084584178Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2025-11-23T06:47:52.143264702Z 4 added, 0 removed; done.
+2025-11-23T06:47:52.143291372Z Running hooks in /etc/ca-certificates/update.d...
+2025-11-23T06:47:52.154655227Z done.
+2025-11-23T06:47:52.175454584Z CA certificates copied and updated successfully.
+2025-11-23T06:47:52.346018432Z Starting periodic command scheduler: cron.
+2025-11-23T06:47:52.565708231Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2025-11-23T06:47:52.565741587Z Could not find operation ID in manifest. Generating an operation id...
+2025-11-23T06:47:52.565745041Z Build Operation ID: ef6f90ea-0797-4d67-bb50-6be32a1baa0b
+2025-11-23T06:47:53.542737786Z Environment Variables for Application Insight's IPA Codeless Configuration exists..
+2025-11-23T06:47:53.681080306Z Writing output script to '/opt/startup/startup.sh'
+2025-11-23T06:47:53.877842826Z /opt/startup/startup.sh: 11: cd: can't cd to server
+2025-11-23T06:47:53.886802023Z Running #!/bin/sh
+2025-11-23T06:47:53.886834289Z 
+2025-11-23T06:47:53.886838543Z # Enter the source directory to make sure the script runs where the user expects
+2025-11-23T06:47:53.886854723Z cd "/home/site/wwwroot"
+2025-11-23T06:47:53.886857179Z 
+2025-11-23T06:47:53.886859046Z export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+2025-11-23T06:47:53.886860971Z if [ -z "$PORT" ]; then
+2025-11-23T06:47:53.886863126Z 		export PORT=8080
+2025-11-23T06:47:53.886865521Z fi
+2025-11-23T06:47:53.886867299Z 
+2025-11-23T06:47:53.886869173Z PATH="$PATH:/home/site/wwwroot" cd server && npm install && npm start
+
+2025-11-23T06:48:06.987328295Z    _____                               
+2025-11-23T06:48:06.987385139Z   /  _  \ __________ _________   ____  
+2025-11-23T06:48:06.987388888Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2025-11-23T06:48:06.987391219Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2025-11-23T06:48:06.987393357Z \____|__  /_____ \____/ |__|    \___  >
+2025-11-23T06:48:06.987395843Z         \/      \/                  \/ 
+2025-11-23T06:48:06.987397787Z A P P   S E R V I C E   O N   L I N U X
+2025-11-23T06:48:06.987399749Z 
+2025-11-23T06:48:06.987401494Z Documentation    : http://aka.ms/webapp-linux
+2025-11-23T06:48:06.987403326Z NodeJS quickstart: https://aka.ms/node-qs
+2025-11-23T06:48:06.987405207Z NodeJS Version   : v20.19.5
+2025-11-23T06:48:06.987407086Z Instance Name    : lw1sdlwk0000NJ
+2025-11-23T06:48:06.987409010Z Instance Id      : 771c4855b52f18cdab2a5fc344c5bec327e980889332ccf5151f348f68cb25c7
+2025-11-23T06:48:06.987411090Z 
+2025-11-23T06:48:06.987412904Z Note: Any data outside '/home' is not persisted
+2025-11-23T06:48:13.250856796Z Starting OpenBSD Secure Shell server: sshd.
+2025-11-23T06:48:13.270091784Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-11-23T06:48:13.310306791Z Updating certificates in /etc/ssl/certs...
+2025-11-23T06:48:35.572255144Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2025-11-23T06:48:35.573344163Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2025-11-23T06:48:36.091978504Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2025-11-23T06:48:36.152314388Z 4 added, 0 removed; done.
+2025-11-23T06:48:36.190299199Z Running hooks in /etc/ca-certificates/update.d...
+2025-11-23T06:48:36.294213966Z done.
+2025-11-23T06:48:36.312188346Z CA certificates copied and updated successfully.
+2025-11-23T06:48:36.483923324Z Starting periodic command scheduler: cron.
+2025-11-23T06:48:36.909828163Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2025-11-23T06:48:36.911116696Z Could not find operation ID in manifest. Generating an operation id...
+2025-11-23T06:48:36.911131788Z Build Operation ID: a2701cfe-6d4d-4960-a277-c2f79eb49a58
+2025-11-23T06:48:37.737509011Z Environment Variables for Application Insight's IPA Codeless Configuration exists..
+2025-11-23T06:48:37.876837487Z Writing output script to '/opt/startup/startup.sh'
+2025-11-23T06:48:38.054533064Z Running #!/bin/sh
+2025-11-23T06:48:38.054577905Z 
+2025-11-23T06:48:38.054582557Z # Enter the source directory to make sure the script runs where the user expects
+2025-11-23T06:48:38.054585261Z cd "/home/site/wwwroot"
+2025-11-23T06:48:38.054587887Z 
+2025-11-23T06:48:38.054604015Z export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+2025-11-23T06:48:38.054606312Z if [ -z "$PORT" ]; then
+2025-11-23T06:48:38.054608341Z 		export PORT=8080
+2025-11-23T06:48:38.054610566Z fi
+2025-11-23T06:48:38.054612361Z 
+2025-11-23T06:48:38.066467577Z PATH="$PATH:/home/site/wwwroot" cd server && npm install && npm start
+2025-11-23T06:48:38.076310193Z /opt/startup/startup.sh: 11: cd: can't cd to server
+

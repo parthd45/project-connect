@@ -1,0 +1,9 @@
+<step title="Incoming Request" date="2025-11-23T05:43:25.027" instance="771c48" url="/api/deployments/latest?deployer=GitHub&amp;time=2025-11-23_05-43-24Z" method="GET" type="request" pid="833,1,5" Host="projectconnect-backend.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/106.0.7.100" Authorization="Bas..." x-ms-request-id="af2412b8-ae54-47f6-9f1f-9adeb096d6bc" X-ARR-LOG-ID="af2412b8-ae54-47f6-9f1f-9adeb096d6bc" CLIENT-IP="20.205.66.0:17472" X-SITE-DEPLOYMENT-ID="projectconnect-backend" WAS-DEFAULT-HOSTNAME="projectconnect-backend.scm.azurewebsites.net" X-MS-PLATFORM-INTERNAL="True" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=GitHub&amp;time=2025-11-23_05-43-24Z" X-Client-IP="20.205.66.0" X-Client-Port="17472" >
+  <step title="Cleanup Xml Logs" date="2025-11-23T05:43:25.030" /><!-- duration: 25ms -->
+  <step title="DeploymentService.GetResult" date="2025-11-23T05:43:25.094" >
+    <step title="DeploymentService.GetLatestDeployment" date="2025-11-23T05:43:25.098" >
+      <step title="DeploymentManager.GetResults" date="2025-11-23T05:43:25.104" /><!-- duration: 468ms -->
+    </step><!-- duration: 492ms -->
+  </step><!-- duration: 508ms -->
+  <step title="Outgoing response" date="2025-11-23T05:43:25.677" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 21ms -->
+</step><!-- duration: 675ms -->

@@ -1,0 +1,23 @@
+2025-11-23T06:42:16.6467003Z,Updating submodules.,63caf0f5-1acc-45ad-8a30-5fe200f98b05,0
+2025-11-23T06:42:17.9832822Z,Preparing deployment for commit id 'b1e76f5b-f'.,bfcd48cd-037e-4f7e-8ae7-412b02f8f6f5,0
+2025-11-23T06:42:18.8518151Z,PreDeployment: context.CleanOutputPath False,f5b7ad59-85d8-4d80-aba9-480c2a9c3d9e,0
+2025-11-23T06:42:19.1862949Z,PreDeployment: context.OutputPath /home/site/wwwroot,602eb8cc-b4bb-4fbe-9f38-2d4c1021984e,0
+2025-11-23T06:42:19.5164058Z,Running custom deployment command...,8b0d1e35-482c-45cb-8881-d9b10dc60eaf,0
+2025-11-23T06:42:19.7682459Z,Not setting execute permissions for npm install,a9e53f27-3635-4610-ab5b-85dda71caade,0
+2025-11-23T06:42:20.0368407Z,Running deployment command...,d12ad4bd-05b6-4a88-8c55-11b017ea259a,0
+	2025-11-23T06:42:20.1216434Z,Command: npm install,,0
+	2025-11-23T06:42:38.4405130Z,,,0
+	2025-11-23T06:42:38.6147966Z,> project-connect-server@1.0.0 postinstall,,0
+	2025-11-23T06:42:38.6945568Z,> echo 'Backend dependencies installed',,0
+	2025-11-23T06:42:38.7220018Z,,,0
+	2025-11-23T06:42:38.7493044Z,Backend dependencies installed,,0
+	2025-11-23T06:42:38.7738137Z,,,0
+	2025-11-23T06:42:38.7873655Z,added 101 packages&comma; and audited 102 packages in 13s,,0
+	2025-11-23T06:42:38.8057329Z,,,0
+	2025-11-23T06:42:38.8426828Z,15 packages are looking for funding,,0
+	2025-11-23T06:42:38.8557699Z,  run `npm fund` for details,,0
+	2025-11-23T06:42:38.9116401Z,,,0
+	2025-11-23T06:42:38.9307259Z,found 0 vulnerabilities,,0
+2025-11-23T06:42:39.1452921Z,Running post deployment command(s)...,0dd01295-f173-4e08-85a6-622acab5797a,0
+2025-11-23T06:42:39.3075570Z,Triggering container recycle for OneDeploy by adding/updating restartTrigger.txt to the site root path,9f1a1dc0-03e3-4a42-9dd5-c0de272b555c,0
+2025-11-23T06:42:39.5430282Z,Deployment successful. deployer = OneDeploy deploymentPath = OneDeploy,fcdf2d88-2d5d-43e9-8c83-e9284a431238,0
